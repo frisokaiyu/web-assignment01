@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <title>COMP5347 Assignment One</title>
+    <link rel="stylesheet" href="a1.css" />
+    <script type="text/javascript" src="a1.js"></script>
+</head>
+<body>
+<form method="get" action="">
+    <div id="searchBox">
+        <input type="search" placeholder="search titles" id="searchTitle">
+        <input type="button" value="search" onclick="myFunction()">
+        <select name="genre" id="genre">
+            <option>Select All</option>
+            <option>Genre</option>
+            <option>Baroque</option>
+            <option>Mannerism</option>
+            <option>Neo-classicism</option>
+            <option>Reamlism</option>
+            <option>Romanticism</option>
+        </select>
+        <input type="button" value="Filter">
+    </div>
+    <div id="artistBox">
+        <table id="Table">
+            <caption>Paintings</caption>
+            <thread>
+                <tr>
+                <th></th>
+                <th></th>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Year</th>
+                <th>Genre</th>
+                </tr>
+            </thread>
+            <tbody>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><img src="../images/05030.jpg" alt="Death of Marat"></td>
+                <td id="td1">Death of Marat</td>
+                <td>David,Jacques-Louis</td>
+                <td>1793</td>
+                <td>Romanticism</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><img src="../images/06010.jpg" alt="Portait of Eleanor of Toledo"></td>
+                <td id="td2">Portait of Eleanor of Toledo</td>
+                <td>Bronzino,Agnolo</td>
+                <td>1545</td>
+                <td>Mannerism</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><img src="../images/07020.jpg" alt="Liberty Reading the People"></td>
+                <td id="td3">Liberty Reading the People</td>
+                <td>Delacroix,Engene</td>
+                <td>1830</td>
+                <td>Romanticism</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><img src="../images/13030.jpg" alt="Arrangement in Grey and Black"/></td>
+                <td id="td4">Arrangement in Grey and Black</td>
+                <td>Whistler,James Abbott</td>
+                <td>1871</td>
+                <td>Realism</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td><img src="../images/120010.jpg" alt="Mademoiselle Caroline Riviere"></td>
+                <td id="td5">Mademoiselle Caroline Riviere</td>
+                <td>Ingres,Jean-Auguste</td>
+                <td>1806</td>
+                <td>Neo-Classicism</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</form>
+</body>
+</html>
